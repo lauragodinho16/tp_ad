@@ -1,0 +1,28 @@
+subgrupo,status,quality_2007,tamanho_2007,p(fatal)_2007,quality_2025,tamanho_2025,p(fatal)_2025
+causa_acidente=='outras',Persistente,0.0054,45956.0,0.0575,0.0099,25459.0,0.0999
+causa_acidente=='outras' and tipo_pista=='simples',Persistente,0.0061,24140.0,0.0751,0.0099,13028.0,0.1271
+fase_dia=='plena noite',Persistente,0.0064,42864.0,0.0618,0.0102,24781.0,0.1018
+fase_dia=='plena noite' and tipo_pista=='simples',Persistente,0.0063,24747.0,0.0751,0.0101,12244.0,0.1315
+fase_dia=='plena noite' and uso_solo=='não',Persistente,0.0055,22585.0,0.0739,0.0104,14452.0,0.1238
+tipo_acidente=='atropelamento de pedestre',Persistente,0.0068,3852.0,0.2687,0.0094,3057.0,0.2951
+tipo_acidente=='colisão frontal',Persistente,0.0077,4577.0,0.2563,0.0146,4739.0,0.2946
+tipo_acidente=='colisão frontal' and tipo_pista=='simples',Persistente,0.0073,3995.0,0.2758,0.0141,4236.0,0.3128
+tipo_acidente=='colisão frontal' and tipo_pista=='simples' and uso_solo=='não',Persistente,0.0061,2723.0,0.3276,0.0126,3133.0,0.3629
+tipo_acidente=='colisão frontal' and uso_solo=='não',Persistente,0.0063,2914.0,0.3181,0.0129,3359.0,0.3513
+tipo_pista=='simples',Persistente,0.0068,71613.0,0.0548,0.0128,34733.0,0.0986
+tipo_pista=='simples' and uso_solo=='não',Persistente,0.0077,46423.0,0.0638,0.0156,23860.0,0.1192
+uso_solo=='não',Persistente,0.0063,65195.0,0.0549,0.011,41444.0,0.0911
+causa_acidente=='outras' and fase_dia=='plena noite',Novo em 2025,,,,0.0101,8051.0,0.1631
+causa_acidente=='outras' and tipo_pista=='simples' and uso_solo=='não',Novo em 2025,,,,0.0105,7648.0,0.171
+causa_acidente=='outras' and uso_solo=='não',Novo em 2025,,,,0.0112,12518.0,0.1365
+condicao_metereologica=='céu claro' and tipo_acidente=='colisão frontal',Novo em 2025,,,,0.0096,3010.0,0.302
+condicao_metereologica=='céu claro' and tipo_acidente=='colisão frontal' and tipo_pista=='simples',Novo em 2025,,,,0.0092,2702.0,0.3198
+condicao_metereologica=='céu claro' and tipo_pista=='simples' and uso_solo=='não',Novo em 2025,,,,0.0106,15327.0,0.1221
+fase_dia=='plena noite' and tipo_pista=='simples' and uso_solo=='não',Novo em 2025,,,,0.0097,8515.0,0.1548
+fase_dia=='plena noite' and tracado_via=='reta',Extinto desde 2007,0.0057,31614.0,0.0654,,,
+regiao=='nordeste' and tipo_pista=='simples',Extinto desde 2007,0.0055,17282.0,0.0836,,,
+tipo_acidente=='atropelamento de pedestre' and tracado_via=='reta',Extinto desde 2007,0.006,3331.0,0.2729,,,
+tipo_acidente=='colisão frontal' and tracado_via=='reta',Extinto desde 2007,0.0056,3181.0,0.2663,,,
+tipo_pista=='simples' and tracado_via=='reta',Extinto desde 2007,0.0062,48387.0,0.0588,,,
+tipo_pista=='simples' and tracado_via=='reta' and uso_solo=='não',Extinto desde 2007,0.0061,30340.0,0.0683,,,
+tracado_via=='reta' and uso_solo=='não',Extinto desde 2007,0.0054,42655.0,0.0588,,,
