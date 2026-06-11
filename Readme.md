@@ -25,7 +25,7 @@ tp_ad/
 
 ### Fonte
 
-Os dados são provenientes do portal de **Dados Abertos da PRF** ([dados.prf.gov.br](https://dados.prf.gov.br/)), que disponibiliza registros de todos os acidentes ocorridos em rodovias federais brasileiras, com detalhamento por ocorrência, envolvidos e veículos.
+Os dados são provenientes do portal de **Dados Abertos da PRF** ([dados.prf.gov.br](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)), que disponibiliza registros de todos os acidentes ocorridos em rodovias federais brasileiras, com detalhamento por ocorrência, envolvidos e veículos.
 
 ---
 
@@ -172,7 +172,7 @@ pip install pandas scipy pysubgroup
 
 ## Referências
 
-- [Portal de Dados Abertos da PRF](https://dados.prf.gov.br/)
+- [Portal de Dados Abertos da PRF](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf)
 - [Documentação do pysubgroup](https://github.com/flemmerich/pysubgroup)
-- Dicionário de dados oficial: `dicionario_de_dados.pdf` (incluído no repositório)
-- Detalhamento metodológico: `projeto AD.pdf` (incluído no repositório)
+- [Dicionário de dados oficial](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dicionario-acidentes)
+
