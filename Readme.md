@@ -110,24 +110,6 @@ Arquivo gerado pela execução do algoritmo de descoberta de subgrupos (`pysubgr
 
 **Abordagem analítica:** A taxa de letalidade de cada subgrupo é comparada com a média nacional. Subgrupos com desvio positivo estatisticamente significativo são considerados de risco excepcional.
 
----
-
-### Pergunta 2 — Perfil de Condutores de Motocicletas em Área Rural
-
-> **Existem perfis específicos de condutores — combinando `idade` e `sexo` — que, ao conduzir motocicletas (`tipo_veiculo`), têm um risco significativamente maior de gerar vítimas graves (`feridos_graves`) em áreas rurais (`uso_solo`)?**
-
-**Objetivo:** Descobrir subgrupos de condutores de motocicleta, definidos por faixa etária e sexo, que estão associados a uma incidência desproporcional de feridos graves quando os acidentes ocorrem fora do perímetro urbano. Esses perfis podem embasar campanhas educativas e políticas públicas direcionadas.
-
-**Variáveis envolvidas:**
-- `idade` — Idade do condutor
-- `sexo` — Sexo do condutor
-- `tipo_veiculo` — Filtro aplicado: motocicleta
-- `uso_solo` — Filtro aplicado: Rural
-- `feridos_graves` (variável-alvo) — Número de feridos graves por acidente
-
-**Abordagem analítica:** O dataset é filtrado para acidentes com motocicletas em área rural, e o algoritmo de descoberta de subgrupos busca combinações de `idade` e `sexo` com concentração elevada de `feridos_graves` em relação à média desse subconjunto.
-
----
 
 ## Instalação e Requisitos
 
